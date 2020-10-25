@@ -52,6 +52,7 @@ h2 {
 .visual__characteristic__sleep {
   padding-left: 185px;
   text-align: left;
+  visibility: hidden;
 }
 
 .visual__youtube img {
@@ -61,16 +62,35 @@ h2 {
 
 .visual__youtube__playBtn a {
   position: absolute;
+  top: 43.3%;
+  left: 45.8%;
+  color: white;
+  font-size: 40px;
+  background-color: red;
+  width: 75px;
+  height: 75px;
+  line-height: 75px;
+  text-align: center;
+  border-radius: 50%;
+  z-index: 19;
+}
+
+.visual__youtube__playBtn__hover {
+  content: '';
+  position: absolute;
   top: 42%;
   left: 45%;
   color: white;
   font-size: 42px;
-  background-color: red;
-  width: 80px;
-  height: 80px;
-  line-height: 80px;
+  border: 1px solid white;
+  width: 85px;
+  height: 85px;
+  line-height: 85px;
   text-align: center;
   border-radius: 50%;
+  animation: scale 600ms linear;
+  animation-duration: 1500ms;
+  animation-iteration-count: infinite;
 }
 /* Collection */
 
@@ -90,7 +110,7 @@ h2 {
   background-color: #f39800;
 }
 
-.collection__container {
+.collection__containers {
   display: flex;
   justify-content: center;
 }
@@ -343,8 +363,33 @@ h2 {
   line-height: 25px;
 }
 
-/* TimeBanner Show */
+/*  Show */
 
 .timeBannerShow {
   visibility: visible;
+  animation: fade 400ms linear;
+}
+.visualShow {
+  visibility: visible;
+  animation: fade 300ms linear;
+}
+
+@keyframes fade {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes scale {
+  from {
+    opacity: 1;
+    transform: scale(1);
+  }
+  to {
+    opacity: 0;
+    transform: scale(1.3);
+  }
 }
