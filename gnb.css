@@ -63,3 +63,47 @@ li {
   margin: 0px 7px;
   cursor: pointer;
 }
+
+/* Gnb hover List */
+.gnb__collection__hover {
+  position: absolute;
+  left: 33%;
+  top: 12%;
+  background-color: white;
+  width: 200px;
+  height: 150px;
+  line-height: 30px;
+  border-radius: 4px;
+  display: none;
+}
+
+.gnb__collection__hober__list {
+  margin: 15px 25px;
+}
+.gnb__collection__hober__list a {
+  color: rgb(128, 127, 127);
+}
+
+.gnb__product__hover {
+  position: absolute;
+  left: 45%;
+  top: 12%;
+  background-color: white;
+  width: 200px;
+  height: 200px;
+  line-height: 30px;
+  border-radius: 4px;
+  display: none;
+}
+
+.gnb__product__hober__list {
+  margin: 15px 25px;
+}
+.gnb__product__hover a {
+  color: rgb(128, 127, 127);
+}
+/* Gnb Show */
+
+.showGnb {
+  display: block;
+}
