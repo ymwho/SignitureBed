@@ -1,0 +1,13 @@
+/* TimeBanner */
+
+#time__banner {
+  height: 650px;
+}
+
+.time__banner__collection img {
+  position: absolute;
+  top: 0px;
+  width: 100%;
+  height: 650px;
+  z-index: -1;
+}
