@@ -194,3 +194,70 @@ h2 {
   transition: all 300ms ease-in-out;
   opacity: 0.4;
 }
+
+/* Products */
+
+#products {
+  background-color: #f7f8fb;
+  margin-top: 90px;
+}
+.products__title {
+  padding: 40px 0px;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  position: relative;
+}
+.product__square {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  top: 35%;
+  right: 42.9%;
+  background-color: #f39800;
+}
+
+.products__container {
+  display: flex;
+  justify-content: center;
+}
+
+.product__topper,
+.product__topper__mattress,
+.product__motion__bed {
+  position: relative;
+  margin: 0px 20px;
+  top: 5px;
+}
+
+.product__topper:hover,
+.product__topper__mattress:hover,
+.product__motion__bed:hover {
+  top: 0px;
+  transition: all 300ms ease-in-out;
+}
+
+.products__topper__description,
+.product__topper__mattress__description,
+.product__motion_bed__description {
+  position: absolute;
+  top: 40%;
+  left: 35%;
+  color: white;
+  text-align: center;
+  font-size: 26px;
+}
+
+.products__container__hover {
+  content: '';
+  position: absolute;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+  z-index: 19;
+}
+
+.products__container__hover:hover {
+  opacity: 0.4;
+  background-color: white;
+}

@@ -46,7 +46,7 @@ li {
 }
 
 .gnb__munu__list a {
-  color: gray;
+  color: rgb(207, 206, 206);
   margin: 0px 14px;
   font-size: 16px;
   cursor: pointer;
@@ -59,7 +59,7 @@ li {
 
 .link__icon i {
   font-size: 24px;
-  color: gray;
+  color: rgb(207, 206, 206);
   margin: 0px 7px;
   cursor: pointer;
 }
