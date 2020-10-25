@@ -20,7 +20,10 @@ h2 {
   top: 0px;
   width: 100%;
   height: 650px;
-  z-index: -1;
+  z-index: -19;
+}
+.time__banner__convert {
+  visibility: hidden;
 }
 
 /* Visual Information */
@@ -338,4 +341,10 @@ h2 {
 #footer p {
   padding: 20px 0px;
   line-height: 25px;
+}
+
+/* TimeBanner Show */
+
+.timeBannerShow {
+  visibility: visible;
 }
