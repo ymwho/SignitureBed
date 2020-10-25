@@ -311,6 +311,7 @@ h2 {
 .lab__sleep__studio {
   display: flex;
   position: relative;
+  visibility: hidden;
 }
 
 .lab__left {
@@ -372,6 +373,11 @@ h2 {
 .visualShow {
   visibility: visible;
   animation: fade 300ms linear;
+}
+
+.labShow {
+  visibility: visible;
+  animation: fade 500ms ease-in-out;
 }
 
 @keyframes fade {
