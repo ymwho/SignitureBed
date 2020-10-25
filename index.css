@@ -327,3 +327,15 @@ h2 {
   line-height: 30px;
   margin-top: 10px;
 }
+/* Footer */
+#footer {
+  background-color: #2d323d;
+  height: 90px;
+  color: #869099;
+  font-size: 12px;
+  text-align: center;
+}
+#footer p {
+  padding: 20px 0px;
+  line-height: 25px;
+}
