@@ -5,7 +5,7 @@ h1 {
   color: white;
 }
 h2 {
-  font-size: 32px;
+  font-size: 38px;
 }
 
 /* TimeBanner */
@@ -67,4 +67,130 @@ h2 {
   line-height: 80px;
   text-align: center;
   border-radius: 50%;
+}
+/* Collection */
+
+.collection__title {
+  padding: 50px 0px;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  position: relative;
+}
+.collection__square {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  top: 35%;
+  right: 41.9%;
+  background-color: #f39800;
+}
+
+.collection__container {
+  display: flex;
+  justify-content: center;
+}
+
+.collection__basic img {
+  width: 525px;
+  height: 770px;
+}
+.collection__right img {
+  width: 550px;
+  height: 370px;
+}
+
+.collection__left {
+  padding: 0px 40px;
+}
+.collection__g2 {
+  margin-top: 25px;
+}
+
+.collection__basic,
+.collection__active,
+.collection__g2 {
+  position: relative;
+}
+
+.collection__basic__name {
+  position: absolute;
+  top: 90px;
+  left: 30px;
+  font-size: 22px;
+  font-weight: bold;
+  color: white;
+}
+.collection__basic__description {
+  position: absolute;
+  top: 125px;
+  left: 30px;
+  font-size: 18px;
+  font-weight: lighter;
+  color: rgb(218, 216, 216);
+}
+
+.collection__active__name {
+  position: absolute;
+  bottom: 60px;
+  right: 50px;
+  font-size: 22px;
+  font-weight: bold;
+  color: white;
+}
+.collection__active__description {
+  position: absolute;
+  bottom: 30px;
+  right: 30px;
+  font-size: 18px;
+  font-weight: lighter;
+  color: rgb(218, 216, 216);
+}
+
+.collection__g2__name {
+  position: absolute;
+  bottom: 60px;
+  right: 50px;
+  font-size: 22px;
+  font-weight: bold;
+  color: white;
+}
+.collection__g2__description {
+  position: absolute;
+  bottom: 30px;
+  right: 30px;
+  font-size: 18px;
+  font-weight: lighter;
+  color: rgb(218, 216, 216);
+}
+.collection__basic__square,
+.collection__active__square,
+.collection__g2__square {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  top: -3px;
+  right: -12px;
+}
+.collection__basic__square {
+  background-color: #00677b;
+}
+.collection__active__square {
+  background-color: #6b3590;
+}
+.collection__g2__square {
+  background-color: #005634;
+}
+
+.collection__container__hover {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0px;
+  content: '';
+}
+.collection__container__hover:hover {
+  background-color: black;
+  transition: all 300ms ease-in-out;
+  opacity: 0.4;
 }
