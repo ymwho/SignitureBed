@@ -109,7 +109,7 @@ li {
 /* Signiture Basic */
 
 #signiture__basic {
-  height: 3000px;
+  height: 3200px;
   width: 100%;
   background-color: #cedfe8;
 }
@@ -212,6 +212,53 @@ li {
   position: absolute;
   left: 88%;
   top: 37%;
+}
+
+.compact__metress {
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+}
+.compact__metress__topper,
+.compact__integral__form,
+.compact__folding__type {
+  margin: 0px 15px;
+  position: relative;
+}
+.compact__metress__description__topper {
+  position: absolute;
+  top: 38%;
+  left: 43%;
+  color: white;
+  font-size: 24px;
+  text-align: center;
+}
+
+.compact__metress__description {
+  position: absolute;
+  top: 35%;
+  left: 29%;
+  color: white;
+  font-size: 24px;
+  text-align: center;
+}
+.shape {
+  font-size: 17px;
+  color: rgb(223, 221, 221);
+}
+
+/* Footer */
+#footer {
+  background-color: #2d323d;
+  height: 90px;
+  color: #869099;
+  font-size: 12px;
+  text-align: center;
+  margin-top: 200px;
+}
+#footer p {
+  padding: 20px 0px;
+  line-height: 25px;
 }
 
 /* Gnb Show */
