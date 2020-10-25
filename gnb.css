@@ -107,3 +107,9 @@ li {
 .showGnb {
   display: block;
 }
+.scrollGnb {
+  background-color: white;
+  position: fixed;
+  width: 97%;
+  transition: all 300ms ease-in-out;
+}
