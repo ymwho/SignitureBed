@@ -31,16 +31,16 @@
   font-weight: 100;
 }
 
-#frame_banner {
+#frame__banner {
   position: relative;
   margin-top: 50px;
 }
 
-#frame_banner img {
+#frame__banner img {
   width: 100%;
 }
 
-#frame_banner h2 {
+#frame__banner h2 {
   position: absolute;
   color: white;
   font-size: 36px;
@@ -53,6 +53,14 @@
   text-align: center;
   margin-top: 80px;
   font-size: 20px;
+}
+
+.frame__banner__title {
+  visibility: hidden;
+}
+
+.frame__famous__saying__title {
+  visibility: hidden;
 }
 
 #mongata {
@@ -172,4 +180,19 @@
 #footer p {
   padding: 20px 0px;
   line-height: 25px;
+}
+/* Show */
+
+.frameShow {
+  visibility: visible;
+  animation: fade 500ms linear;
+}
+
+@keyframes fade {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
