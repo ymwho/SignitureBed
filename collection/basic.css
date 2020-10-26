@@ -1,0 +1,188 @@
+/* Signiture Basic */
+
+#signiture__basic {
+  height: 3200px;
+  width: 100%;
+  background-color: #cedfe8;
+}
+.signiture__basic__title {
+  padding-top: 150px;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  position: relative;
+}
+.signiture__basic__title h2 {
+  font-size: 45px;
+}
+.signiture__basic__square {
+  position: absolute;
+  width: 22px;
+  height: 22px;
+  top: 68%;
+  right: 36.5%;
+  background-color: #006073;
+}
+.famous__saying {
+  text-align: center;
+  position: relative;
+  color: white;
+}
+
+.famous__saying img {
+  padding: 50px 0px;
+}
+.famous__saying__en {
+  position: absolute;
+  top: 30%;
+  left: 35%;
+  font-size: 24px;
+}
+.famouse__saying__ko {
+  position: absolute;
+  top: 47%;
+  left: 37%;
+  font-size: 16px;
+  color: #6ccffb;
+}
+.famouse__saying__en__Author {
+  position: absolute;
+  top: 58%;
+  left: 44%;
+  font-size: 16px;
+}
+.famouse__saying__ko__Author {
+  position: absolute;
+  top: 64%;
+  left: 47%;
+  font-size: 16px;
+  color: #6ccffb;
+}
+
+/* Reasonable */
+
+.reasonable {
+  display: flex;
+  text-align: center;
+}
+.reasonable__left {
+  flex-basis: 43%;
+  text-align: right;
+  position: relative;
+}
+.reasonable__right {
+  flex-basis: 57%;
+  text-align: left;
+}
+.reasonable__left img,
+.reasonable__right img {
+  padding: 6px;
+}
+
+.reasonable__description {
+  background-color: #01354e;
+  float: right;
+  color: white;
+  text-align: left;
+  width: 290px;
+  height: 360px;
+  margin: 6px;
+  padding: 40px;
+  line-height: 60px;
+  margin-bottom: 60px;
+}
+.reasonable__description__en,
+.reasonable__description__ko {
+  font-size: 18px;
+}
+
+.reasonable__right:nth-child(2) {
+  margin-top: 50px;
+}
+
+.reasonable__brush {
+  position: absolute;
+  left: 88%;
+  top: 37%;
+}
+
+/* ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ */
+
+.compact__metress {
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+}
+.compact__metress__topper,
+.compact__integral__form,
+.compact__folding__type {
+  margin: 0px 15px;
+  position: relative;
+}
+
+.compact__metress__description__topper,
+.compact__metress__description__integral,
+.compact__metress__description__folding {
+  position: absolute;
+  top: 0px;
+  color: white;
+  font-size: 24px;
+  text-align: center;
+}
+
+.compact__metress__T {
+  font-size: 28px;
+}
+.compact__integral__description__hover,
+.compact__folding__description__hover,
+.compact__metress__description__hover {
+  position: relative;
+}
+
+.compact__metrss__hover__description {
+  position: absolute;
+  top: 38%;
+  left: 43%;
+}
+.compact__folding__hover__description,
+.compact__integral__hover__description {
+  position: absolute;
+  top: 35%;
+  left: 30%;
+}
+
+/* ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ */
+
+.shape {
+  font-size: 17px;
+  color: rgb(223, 221, 221);
+}
+
+/* Footer */
+#footer {
+  background-color: #2d323d;
+  height: 90px;
+  color: #869099;
+  font-size: 12px;
+  text-align: center;
+  margin-top: 200px;
+}
+#footer p {
+  padding: 20px 0px;
+  line-height: 25px;
+}
+
+/* Show */
+.compactHidden {
+  visibility: hidden;
+  animation-duration: 2000ms;
+}
+
+@keyframes fade {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
