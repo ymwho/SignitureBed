@@ -1,0 +1,175 @@
+#bed__price {
+  padding-top: 130px;
+}
+
+.bed__price__container {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.bed__price__title {
+  display: flex;
+  align-items: center;
+}
+
+.bed__price__title h1 {
+  font-size: 48px;
+  font-weight: 100;
+}
+
+.bed__price__title p {
+  font-size: 24px;
+  color: #737373;
+  font-weight: 100;
+  padding-top: 20px;
+  padding-left: 10px;
+}
+.bed__price__tag p {
+  font-size: 32px;
+  color: #737373;
+  font-weight: 100;
+}
+
+#frame_banner {
+  position: relative;
+  margin-top: 50px;
+}
+
+#frame_banner img {
+  width: 100%;
+}
+
+#frame_banner h2 {
+  position: absolute;
+  color: white;
+  font-size: 36px;
+  top: 15%;
+  left: 31%;
+  text-align: center;
+}
+
+#frame__famous__saying {
+  text-align: center;
+  margin-top: 80px;
+  font-size: 20px;
+}
+
+#mongata {
+  margin-top: 80px;
+  position: relative;
+}
+.mongata__contaienr {
+  overflow: hidden;
+  width: 1170px;
+  height: 685px;
+  margin: auto;
+  height: 800px;
+}
+#mongata img:hover {
+  transform: scale(1.05);
+  transition: all 300ms linear;
+  transition-duration: 300ms;
+}
+
+.mongata__contaienr a {
+  position: absolute;
+  top: 38%;
+  left: 47.5%;
+  font-size: 80px;
+  color: red;
+}
+.mongata__contaienr p {
+  text-align: left;
+  font-size: 19px;
+  margin-top: 20px;
+}
+
+#frame__one,
+#frame__two {
+  width: 100%;
+}
+#frame__two {
+  background-color: #f7f7f7;
+  padding-top: 100px;
+  margin-top: 100px;
+}
+
+.frame__one__contaner,
+.frame__two__contaner {
+  text-align: center;
+}
+.frame__one__contaner img,
+.frame__two__contaner img {
+  width: 1170px;
+}
+
+#frame__four {
+  padding-bottom: 100px 0px;
+  background-color: #f7f7f7;
+}
+.frame__three__container,
+.frame__four__contaienr {
+  display: flex;
+  background-color: #f7f7f7;
+  padding-bottom: 100px;
+}
+
+.frame__three__left,
+.frame__four__left {
+  flex-basis: 50%;
+  margin-left: 160px;
+}
+.frame__three__right,
+.frame__four__right {
+  flex-basis: 50%;
+}
+
+.frame__five__contaienr,
+.frame__seven__contaienr {
+  text-align: center;
+  padding: 100px 0px;
+}
+
+#frame__six {
+  background-color: #f7f7f7;
+}
+
+#frame__eight {
+  position: relative;
+}
+
+#frame__eight img {
+  width: 100%;
+  height: 850px;
+}
+
+.frame__eight__contaienr {
+  position: absolute;
+  top: 2%;
+  left: 30%;
+  color: white;
+  text-align: center;
+}
+.frame__eight__contaienr h1 {
+  font-size: 40px;
+}
+.frame__eight__contaienr p {
+  font-size: 19px;
+  margin-top: 10px;
+  line-height: 32px;
+}
+
+/* Footer */
+#footer {
+  background-color: #2d323d;
+  height: 90px;
+  color: #869099;
+  font-size: 12px;
+  text-align: center;
+  margin-top: 80px;
+}
+#footer p {
+  padding: 20px 0px;
+  line-height: 25px;
+}
