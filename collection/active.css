@@ -3,7 +3,7 @@
 #signiture__basic {
   height: 3200px;
   width: 100%;
-  background-color: #cedfe8;
+  background-color: #d0d0df;
 }
 .signiture__basic__title {
   padding-top: 150px;
@@ -43,7 +43,7 @@
   top: 47%;
   left: 37%;
   font-size: 16px;
-  color: #6ccffb;
+  color: #b8b8e3;
 }
 .famouse__saying__en__Author {
   position: absolute;
@@ -56,7 +56,7 @@
   top: 64%;
   left: 47%;
   font-size: 16px;
-  color: #6ccffb;
+  color: #b8b8e3;
 }
 
 /* Reasonable */
@@ -80,7 +80,7 @@
 }
 
 .reasonable__description {
-  background-color: #01354e;
+  background-color: #1a192f;
   float: right;
   color: white;
   text-align: left;
@@ -116,9 +116,7 @@
   justify-content: center;
   margin-top: 100px;
 }
-.compact__metress__topper,
-.compact__integral__form,
-.compact__folding__type {
+.compact__metress__topper {
   margin: 0px 15px;
   position: relative;
 }

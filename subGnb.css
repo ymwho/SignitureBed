@@ -110,6 +110,7 @@ li {
 
 .showGnb {
   display: block;
+  z-index: 19;
 }
 .scrollGnb {
   background-color: white;
