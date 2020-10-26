@@ -1,0 +1,158 @@
+#story {
+  text-align: center;
+}
+.story__contaienr {
+  padding: 150px 0px;
+}
+.story__title {
+  width: 100%;
+  position: relative;
+}
+.story__title h2 {
+  font-size: 55px;
+}
+.story__title__square {
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  top: 5px;
+  right: 43.5%;
+  background-color: #f39800;
+}
+
+#story__character {
+  display: flex;
+  justify-content: center;
+  margin-top: -80px;
+}
+#story__character img {
+  width: 285px;
+  height: 465px;
+}
+
+/* Charactor */
+.lee,
+.park,
+.jo,
+.kang {
+  position: relative;
+  cursor: pointer;
+}
+.lee__container,
+.park__container,
+.jo__container,
+.kang__container {
+  position: absolute;
+  top: 0px;
+  background-color: black;
+  width: 100%;
+  height: 465px;
+  opacity: 0.5;
+}
+
+.lee__container:hover,
+.park__container:hover,
+.jo__container:hover,
+.kang__container:hover {
+  opacity: 0;
+  transition: all 300ms linear;
+}
+
+#lee__description {
+  display: flex;
+  margin-top: 80px;
+  display: none;
+}
+#park__description {
+  display: flex;
+  margin-top: 80px;
+  display: none;
+}
+#jo__description {
+  display: flex;
+  margin-top: 80px;
+  display: none;
+}
+#kang__description {
+  display: flex;
+  margin-top: 80px;
+  display: none;
+}
+
+.lee__img {
+  flex-basis: 55%;
+  text-align: center;
+}
+.lee__img img {
+  width: 457px;
+  height: 659px;
+}
+.lee__subimg {
+  display: flex;
+  justify-content: center;
+  margin-left: 100px;
+}
+
+.lee__subimg__first img {
+  width: 256px;
+  height: 370px;
+  margin-top: 30px;
+}
+.lee__subimg__second img {
+  width: 270px;
+  height: 246px;
+  margin-top: 140px;
+  margin-left: 30px;
+}
+.lee__description__name {
+  flex-basis: 45%;
+}
+
+.lee__description__text p {
+  font-size: 23px;
+}
+.lee__description__text h1 {
+  font-size: 50px;
+  border-bottom: 4px solid black;
+  width: 250px;
+}
+.lee__description__text span {
+  font-weight: lighter;
+  font-size: 23px;
+}
+
+.lee__description__info {
+  margin-top: 40px;
+  font-size: 27px;
+}
+
+.lee__description__text {
+  font-size: 20px;
+}
+.lee__description__text h2 {
+  font-weight: 100;
+}
+
+/* Footer */
+#footer {
+  background-color: #2d323d;
+  height: 90px;
+  color: #869099;
+  font-size: 12px;
+  text-align: center;
+  margin-top: 60px;
+}
+#footer p {
+  padding: 20px 0px;
+  line-height: 25px;
+}
+
+/* Show */
+
+.containerHidden {
+  visibility: hidden;
+}
+
+.characterShow {
+  display: block;
+}
