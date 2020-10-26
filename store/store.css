@@ -1,0 +1,134 @@
+#store {
+  text-align: center;
+}
+.store__contaienr {
+  padding: 150px 0px;
+}
+.store__title {
+  width: 100%;
+  position: relative;
+}
+.store__title h2 {
+  font-size: 55px;
+}
+.store__title__square {
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  top: 0px;
+  right: 44%;
+  background-color: #f39800;
+}
+
+/* StoreBanner */
+
+#store__banner {
+  margin-top: -70px;
+  position: relative;
+}
+
+#store__banner img {
+  width: 100%;
+  height: 550px;
+}
+
+.store__banner__container {
+  position: absolute;
+  background-color: black;
+  width: 100%;
+  height: 550px;
+  top: 0px;
+  opacity: 0.6;
+}
+
+.store__banner__title {
+  position: absolute;
+  top: 25%;
+  left: 40%;
+  color: white;
+}
+.store__banner__title h1 {
+  padding-bottom: 20px;
+  position: relative;
+  left: 5%;
+  font-size: 55px;
+}
+
+.store__banner__title h2 {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+  width: 440px;
+  font-weight: 100;
+  font-size: 37px;
+  padding-bottom: 10px;
+}
+.store__banner__title p {
+  position: relative;
+  left: -17%;
+  font-size: 22px;
+}
+
+/* Store Sleep */
+
+#store__sleep {
+  display: flex;
+  margin-top: 100px;
+  justify-content: center;
+}
+.store__sleep__left {
+  display: flex;
+}
+.store__sleep__left img {
+  width: 266px;
+}
+.store__sleep__left__left {
+  flex-basis: 50%;
+  text-align: right;
+}
+.store__sleep__left__left img {
+  margin: 10px;
+}
+.store__sleep__left__right {
+  flex-basis: 50%;
+}
+.store__sleep__left__right img {
+  margin: 80px 10px;
+}
+.store__sleep__right {
+  position: relative;
+  left: -100px;
+}
+
+.store__sleep__right h3 {
+  font-size: 29px;
+  font-weight: 100;
+}
+
+.store__sleep__right p {
+  font-size: 21px;
+}
+
+/* Footer Banner */
+
+#footer__banner {
+  text-align: center;
+  margin: 100px 0px;
+}
+
+#footer__banner img {
+  width: 70%;
+  height: 280px;
+}
+
+/* Footer */
+#footer {
+  background-color: #2d323d;
+  height: 90px;
+  color: #869099;
+  font-size: 12px;
+  text-align: center;
+  margin-top: 80px;
+}
+#footer p {
+  padding: 20px 0px;
+  line-height: 25px;
+}
