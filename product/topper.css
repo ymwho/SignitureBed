@@ -1,0 +1,79 @@
+#topper {
+  background-color: #f7f8fb;
+  text-align: center;
+  height: 520px;
+}
+.topper__title {
+  padding-top: 150px;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  position: relative;
+}
+.topper__title h2 {
+  font-size: 45px;
+}
+.topper__title__square {
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  top: 68%;
+  right: 46.2%;
+  background-color: #f39800;
+}
+
+/* Signiture Basic 3T 4T */
+
+.compact__metress {
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+}
+.compact__integral__form,
+.compact__folding__type {
+  margin: 0px 15px;
+  position: relative;
+}
+
+.compact__metress__description__integral,
+.compact__metress__description__folding {
+  position: absolute;
+  top: 0px;
+  color: white;
+  font-size: 24px;
+  text-align: center;
+}
+
+.compact__metress__T {
+  font-size: 28px;
+}
+.compact__folding__description__hover,
+.compact__integral__description__hover {
+  position: relative;
+}
+.compact__integral__hover__description,
+.compact__folding__hover__description {
+  position: absolute;
+  top: 35%;
+  left: 30%;
+}
+
+/* Footer */
+#footer {
+  background-color: #2d323d;
+  height: 90px;
+  color: #869099;
+  font-size: 12px;
+  text-align: center;
+  margin-top: 80px;
+}
+#footer p {
+  padding: 20px 0px;
+  line-height: 25px;
+}
+
+/* Show */
+.compactHidden {
+  visibility: hidden;
+  animation-duration: 2000ms;
+}
