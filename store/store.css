@@ -112,6 +112,7 @@
 #footer__banner {
   text-align: center;
   margin: 100px 0px;
+  position: relative;
 }
 
 #footer__banner img {

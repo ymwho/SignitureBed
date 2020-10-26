@@ -3,22 +3,34 @@ const frameFamousSaying = document.querySelector(
   '.frame__famous__saying__title'
 );
 
-const frameOptions = { threshold: 1 };
+const frameOptionsBanner = { threshold: 1 };
+const frameOptionsFamous = { threshold: 1 };
 
-const frameCallback = (entries, observer) => {
+const frameCallbackBanner = (entries, observer) => {
   entries.forEach((entry) => {
     if (entry.isIntersecting) {
       frameBannerTitle.classList.add('frameShow');
-      setInterval(() => {
-        frameFamousSaying.classList.add('frameShow');
-      }, 600);
+      observer.unobserve(entry.target);
+    }
+  });
+};
+const frameCallbackFamous = (entries, observer) => {
+  entries.forEach((entry) => {
+    if (entry.isIntersecting) {
+      frameFamousSaying.classList.add('frameShow');
       observer.unobserve(entry.target);
     }
   });
 };
 
-const observeFrame = new IntersectionObserver(frameCallback, frameOptions);
-observeFrame.observe(frameBannerTitle, frameFamousSaying);
+const observeFrameBanner = new IntersectionObserver(
+  frameCallbackBanner,
+  frameOptionsBanner
+);
+const observeFrameFamous = new IntersectionObserver(
+  frameCallbackFamous,
+  frameOptionsFamous
+);
 
-// console.log(frameBannerTitle);
-// console.log(frameFamousSaying);
+observeFrameBanner.observe(frameBannerTitle);
+observeFrameFamous.observe(frameFamousSaying);

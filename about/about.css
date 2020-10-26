@@ -1,0 +1,249 @@
+#about {
+  text-align: center;
+}
+.about__contaienr {
+  padding: 150px 0px;
+}
+.about__title {
+  width: 100%;
+  position: relative;
+}
+.about__title h2 {
+  font-size: 55px;
+}
+.about__title__square {
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  top: 0px;
+  right: 42.5%;
+  background-color: #f39800;
+}
+
+/* About Sleep */
+
+#about__sleep {
+  display: flex;
+  margin-top: -60px;
+  justify-content: center;
+}
+.about__sleep__left {
+  display: flex;
+}
+.about__sleep__left img {
+  width: 266px;
+}
+.about__sleep__left__left {
+  flex-basis: 50%;
+  text-align: right;
+}
+.about__sleep__left__left img {
+  margin: 10px;
+}
+.about__sleep__left__right {
+  flex-basis: 50%;
+}
+.about__sleep__left__right img {
+  margin: 80px 10px;
+}
+.about__sleep__right {
+  position: relative;
+  left: -100px;
+}
+
+.about__sleep__right h3 {
+  font-size: 29px;
+  font-weight: 100;
+}
+
+.about__sleep__right p {
+  font-size: 21px;
+}
+
+/* Signiture Line */
+
+#signiture__line {
+  display: flex;
+  background-color: #f7f7f7;
+  width: 100%;
+  padding: 100px 0px;
+  height: 650px;
+}
+
+.signiture__line__left {
+  flex-basis: 50%;
+  padding: 50px 0px 0px 200px;
+}
+
+.signiture__line__left h1 {
+  font-size: 45px;
+}
+.signiture__line__left h2 {
+  font-size: 29px;
+  font-weight: 100;
+  margin-top: 25px;
+}
+.signiture__line__left p {
+  font-size: 20px;
+  padding-top: 20px;
+}
+.signiture__line__right {
+  flex-basis: 50%;
+}
+.signiture__line__right img {
+  width: 555px;
+  height: 437px;
+  position: relative;
+  left: -90px;
+}
+
+/* Signiture Action */
+
+#signiture__active {
+  display: flex;
+  position: relative;
+  top: -200px;
+}
+
+.signiture__active__left {
+  flex-basis: 50%;
+  text-align: right;
+  position: relative;
+  left: 90px;
+}
+.signiture__active__left img {
+  width: 650px;
+  position: relative;
+  top: -40px;
+}
+.signiture__active__right {
+  flex-basis: 50%;
+  position: relative;
+  left: 120px;
+  color: black;
+  visibility: hidden;
+}
+.signiture__active__square {
+  width: 10px;
+  height: 10px;
+  background-color: #6b3590;
+  position: absolute;
+  top: 0px;
+  right: 26.5%;
+}
+.signiture__active__right h3 {
+  font-size: 22px;
+}
+.signiture__active__right p {
+  font-size: 18px;
+  padding-top: 10px;
+  font-weight: 100;
+}
+
+/* Signiture G2 */
+
+#signiture__gtwo a {
+  display: flex;
+  justify-content: center;
+  margin-top: -210px;
+  color: black;
+}
+.signiture__gtwo__left {
+  position: relative;
+  visibility: hidden;
+}
+
+.signiture__gtwo__left h3 {
+  font-size: 22px;
+}
+.signiture__gtwo__left p {
+  font-size: 18px;
+  margin-top: 14px;
+}
+
+.signiture__gtwo__square {
+  width: 10px;
+  height: 10px;
+  background-color: #005634;
+  position: absolute;
+  top: 0px;
+  left: 33.5%;
+}
+
+.signiture__gtwo__right img {
+  width: 625px;
+  margin: 0px 50px;
+}
+
+/* Signiture Baisc */
+#signiture__basic {
+  display: flex;
+  position: relative;
+  background-color: #f7f7f7;
+  margin-top: 70px;
+  justify-content: center;
+  height: 420px;
+}
+.signiture__basic__left img {
+  width: 650px;
+  position: relative;
+  top: -35px;
+}
+.signiture__basic__left {
+  position: relative;
+  left: -100px;
+}
+
+.signiture__basic__right {
+  position: relative;
+  left: -70px;
+  color: black;
+  visibility: hidden;
+}
+.signiture__basic__square {
+  width: 10px;
+  height: 10px;
+  background-color: #00677b;
+  position: absolute;
+  top: 0px;
+  right: 42%;
+}
+
+.signiture__basic__right h3 {
+  font-size: 22px;
+  margin-top: 30px;
+}
+.signiture__basic__right p {
+  font-size: 18px;
+  padding-top: 10px;
+  font-weight: 100;
+}
+
+/* Footer */
+#footer {
+  background-color: #2d323d;
+  height: 90px;
+  color: #869099;
+  font-size: 12px;
+  text-align: center;
+}
+#footer p {
+  padding: 20px 0px;
+  line-height: 25px;
+}
+
+/* Show */
+
+.signitureShow {
+  visibility: visible;
+  animation: fade 400ms linear;
+}
+
+@keyframes fade {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
