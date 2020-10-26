@@ -20,7 +20,7 @@
   width: 22px;
   height: 22px;
   top: 68%;
-  right: 36.5%;
+  right: 38.5%;
   background-color: #006073;
 }
 .famous__saying {
@@ -121,9 +121,7 @@
   position: relative;
 }
 
-.compact__metress__description__topper,
-.compact__metress__description__integral,
-.compact__metress__description__folding {
+.compact__metress__description__topper {
   position: absolute;
   top: 0px;
   color: white;
@@ -134,22 +132,11 @@
 .compact__metress__T {
   font-size: 28px;
 }
-.compact__integral__description__hover,
-.compact__folding__description__hover,
-.compact__metress__description__hover {
-  position: relative;
-}
 
 .compact__metrss__hover__description {
   position: absolute;
   top: 38%;
   left: 43%;
-}
-.compact__folding__hover__description,
-.compact__integral__hover__description {
-  position: absolute;
-  top: 35%;
-  left: 30%;
 }
 
 /* ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ */
