@@ -77,10 +77,10 @@ li {
   display: none;
 }
 
-.gnb__collection__hober__list {
+.gnb__collection__hover__list {
   margin: 15px 25px;
 }
-.gnb__collection__hober__list a {
+.gnb__collection__hover__list a {
   color: rgb(128, 127, 127);
 }
 
@@ -96,7 +96,7 @@ li {
   display: none;
 }
 
-.gnb__product__hober__list {
+.gnb__product__hover__list {
   margin: 15px 25px;
 }
 .gnb__product__hover a {
