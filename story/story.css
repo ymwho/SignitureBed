@@ -58,30 +58,35 @@
   transition: all 300ms linear;
 }
 
-#lee__description {
-  display: flex;
-  margin-top: 80px;
+.lee__description,
+.park__description,
+.jo__description,
+.kang__description {
   display: none;
 }
-#park__description {
+.lee__description__none__container {
   display: flex;
   margin-top: 80px;
-  display: none;
 }
-#jo__description {
+.park__description__none__container {
   display: flex;
   margin-top: 80px;
-  display: none;
 }
-#kang__description {
+.jo__description__none__container {
   display: flex;
   margin-top: 80px;
-  display: none;
+}
+.kang__description__none__container {
+  display: flex;
+  margin-top: 80px;
 }
 
 .lee__img {
   flex-basis: 55%;
   text-align: center;
+}
+.lee__description__name {
+  flex-basis: 45%;
 }
 .lee__img img {
   width: 457px;
@@ -103,9 +108,6 @@
   height: 246px;
   margin-top: 140px;
   margin-left: 30px;
-}
-.lee__description__name {
-  flex-basis: 45%;
 }
 
 .lee__description__text p {

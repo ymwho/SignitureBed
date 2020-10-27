@@ -16,7 +16,7 @@
     <link rel="stylesheet" href="./story.css" />
     <script src="../js/gnbHover.js" defer></script>
     <script src="../js/storyClick.js" defer></script>
-    <script src="../js/characterSelect.js" defer></script>
+    <script src="../js/storySelect.js" defer></script>
   </head>
 
   <body>
@@ -36,9 +36,9 @@
         <li class="gnb__munu__list action__product">
           <a href="../product/topper.html">PRODUCT</a>
         </li>
-        <li class="gnb__munu__list"><a href="./store.html">STORE</a></li>
+        <li class="gnb__munu__list"><a href="../store/store.html">STORE</a></li>
         <li class="gnb__munu__list"><a href="../about/about.html">ABOUT</a></li>
-        <li class="gnb__munu__list"><a href="">STORY</a></li>
+        <li class="gnb__munu__list"><a href="./story.html">STORY</a></li>
         <li class="gnb__munu__list"><a href="">NOTICE</a></li>
       </ul>
 
@@ -95,23 +95,25 @@
     <!-- Story Character -->
 
     <div id="story__character">
-      <div class="lee" data-link="#lee__description">
-        <div class="lee__container containerHidden"></div>
-
+      <div class="lee">
+        <div
+          class="lee__container containerHidden"
+          data-link=".lee__description"
+        ></div>
         <img src="./storyImg/character1.png" alt="" />
       </div>
-      <div class="park" data-link="#park__description">
-        <div class="park__container"></div>
+      <div class="park">
+        <div class="park__container" data-link=".park__description"></div>
 
         <img src="./storyImg/character2.png" alt="" />
       </div>
-      <div class="jo" data-link="#jo__description">
-        <div class="jo__container"></div>
+      <div class="jo">
+        <div class="jo__container" data-link=".jo__description"></div>
 
         <img src="./storyImg/character3.png" alt="" />
       </div>
-      <div class="kang" data-link="#kang__description">
-        <div class="kang__container"></div>
+      <div class="kang">
+        <div class="kang__container" data-link=".kang__description"></div>
 
         <img src="./storyImg/character4.png" alt="" />
       </div>
@@ -119,211 +121,221 @@
 
     <!-- Lee Description -->
 
-    <div id="lee__description">
-      <div class="lee__img">
-        <img src="./storyImg/lee3.jpg" alt="" />
-        <div class="lee__subimg">
-          <div class="lee__subimg__first">
-            <img src="./storyImg/lee1.jpg" alt="" />
-          </div>
-          <div class="lee__subimg__second">
-            <img src="./storyImg/lee2.jpg" alt="" />
+    <div class="lee__description">
+      <div class="lee__description__none__container">
+        <div class="lee__img">
+          <img src="./storyImg/lee3.jpg" alt="" />
+          <div class="lee__subimg">
+            <div class="lee__subimg__first">
+              <img src="./storyImg/lee1.jpg" alt="" />
+            </div>
+            <div class="lee__subimg__second">
+              <img src="./storyImg/lee2.jpg" alt="" />
+            </div>
           </div>
         </div>
-      </div>
 
-      <div class="lee__description__name">
-        <p>한의사</p>
-        <h1>이형걸 <span>원장</span></h1>
+        <div class="lee__description__name">
+          <p>한의사</p>
+          <h1>이형걸 <span>원장</span></h1>
 
-        <div class="lee__description__info">
-          <b>시그니처 토퍼</b>는,<br />
-          보약 같은 존재입니다.<br />
-          <br />
-        </div>
+          <div class="lee__description__info">
+            <b>시그니처 토퍼</b>는,<br />
+            보약 같은 존재입니다.<br />
+            <br />
+          </div>
 
-        <div class="lee__description__text">
-          저는 한의사입니다. <br />
-          <br />
+          <div class="lee__description__text">
+            저는 한의사입니다. <br />
+            <br />
 
-          저의 하루는 약재들을 살펴보고, 환자를 만나기 전 제 몸의 컨디션은
-          <br />어떤지 살펴보는 것으로 시작합니다.<br />
-          <br />
-          진료시간 마다 저를 믿고 찾아와 주시는 환자분들에게 최선을 다해<br />
-          도움을 드리기 위해서죠.<br />
-          <br />
-          꼼꼼하게 진료를 보다 보면 진료시간이 끝나 있을 때가 대다수입니<br />다.
-          진료를 마치고 피곤하더라도 한 번 더 약재를 점검하고, 퇴근해 <br />집에
-          오면 긴장이 풀려 녹초가 되곤 합니다.<br />
+            저의 하루는 약재들을 살펴보고, 환자를 만나기 전 제 몸의 컨디션은
+            <br />어떤지 살펴보는 것으로 시작합니다.<br />
+            <br />
+            진료시간 마다 저를 믿고 찾아와 주시는 환자분들에게 최선을 다해<br />
+            도움을 드리기 위해서죠.<br />
+            <br />
+            꼼꼼하게 진료를 보다 보면 진료시간이 끝나 있을 때가 대다수입니<br />다.
+            진료를 마치고 피곤하더라도 한 번 더 약재를 점검하고, 퇴근해
+            <br />집에 오면 긴장이 풀려 녹초가 되곤 합니다.<br />
 
-          그 때마다 시그니처토퍼에 누워 숙면을 취하면 다음날 개운하게 아<br />침을
-          시작할 수 있습니다.<br />
-          <br />
+            그 때마다 시그니처토퍼에 누워 숙면을 취하면 다음날 개운하게 아<br />침을
+            시작할 수 있습니다.<br />
+            <br />
 
-          시그니처토퍼는, 보약 같은 존재입니다. <br />
-          <br />
+            시그니처토퍼는, 보약 같은 존재입니다. <br />
+            <br />
 
-          <h2>‘환자를 더 잘 진료하기 위해서’</h2>
+            <h2>‘환자를 더 잘 진료하기 위해서’</h2>
+          </div>
         </div>
       </div>
     </div>
 
     <!-- Park Description -->
 
-    <div id="park__description">
-      <div class="lee__img">
-        <img src="./storyImg/park1.jpg" alt="" />
-        <div class="lee__subimg">
-          <div class="lee__subimg__first">
-            <img src="./storyImg/park2.jpg" alt="" />
-          </div>
-          <div class="lee__subimg__second">
-            <img src="./storyImg/park3.jpg" alt="" />
+    <div class="park__description">
+      <div class="park__description__none__container">
+        <div class="lee__img">
+          <img src="./storyImg/park1.jpg" alt="" />
+          <div class="lee__subimg">
+            <div class="lee__subimg__first">
+              <img src="./storyImg/park2.jpg" alt="" />
+            </div>
+            <div class="lee__subimg__second">
+              <img src="./storyImg/park3.jpg" alt="" />
+            </div>
           </div>
         </div>
-      </div>
 
-      <div class="lee__description__name">
-        <p>펜싱국가대표</p>
-        <h1>박준영<span>선수</span></h1>
+        <div class="lee__description__name">
+          <p>펜싱국가대표</p>
+          <h1>박준영<span>선수</span></h1>
 
-        <div class="lee__description__info">
-          <b>시그니처 토퍼</b>는,<br />
-          제게 필수 장비입니다.<br />
-          <br />
-        </div>
+          <div class="lee__description__info">
+            <b>시그니처 토퍼</b>는,<br />
+            제게 필수 장비입니다.<br />
+            <br />
+          </div>
 
-        <div class="lee__description__text">
-          저는 국가대표 펜싱선수입니다. <br />
-          <br />
+          <div class="lee__description__text">
+            저는 국가대표 펜싱선수입니다. <br />
+            <br />
 
-          펜싱은 검을 가지고 상대하기 때문에 항상 신중한 자세로 훈련에 임하며,
-          훈련도 실전처럼 긴장감의 연속인데요.<br />
-          <br />
-          어떻게 잘 쉬느냐에 따라 컨디션과 경기 성적이 큰 영향을 받기 때문<br />
-          에 쉬는 것도 잘 쉬어 효율적인 컨디션 유지가 중요합니다.<br />
-          <br />
-          훈련은 물론이고 시합 기간이 아닐 때에도 매일 몸을 최상으로 유지<br />하기
-          위해 노력합니다. 오늘의 피로를 내일로 가져가지 않기 위해 집 <br />에
-          와서는 오로지 휴식에 집중하려고 하죠.<br />
+            펜싱은 검을 가지고 상대하기 때문에 항상 신중한 자세로 훈련에 임하며,
+            훈련도 실전처럼 긴장감의 연속인데요.<br />
+            <br />
+            어떻게 잘 쉬느냐에 따라 컨디션과 경기 성적이 큰 영향을 받기 때문<br />
+            에 쉬는 것도 잘 쉬어 효율적인 컨디션 유지가 중요합니다.<br />
+            <br />
+            훈련은 물론이고 시합 기간이 아닐 때에도 매일 몸을 최상으로 유지<br />하기
+            위해 노력합니다. 오늘의 피로를 내일로 가져가지 않기 위해 집 <br />에
+            와서는 오로지 휴식에 집중하려고 하죠.<br />
 
-          시그니처토퍼는, 누워보면 몸을 전체적으로 감싸줘 편안한 숙면을<br />도와주는
-          것을 느낍니다. 모든 장비를 최고급으로 챙기는 토퍼는 제<br />
-          게 경기 전 체력 충전에 가장 좋은 역할을 해주고 있습니다.<br />
+            시그니처토퍼는, 누워보면 몸을 전체적으로 감싸줘 편안한 숙면을<br />도와주는
+            것을 느낍니다. 모든 장비를 최고급으로 챙기는 토퍼는 제<br />
+            게 경기 전 체력 충전에 가장 좋은 역할을 해주고 있습니다.<br />
 
-          <br />
+            <br />
 
-          <h2>‘최상의 컨디션을 위해서’</h2>
+            <h2>‘최상의 컨디션을 위해서’</h2>
+          </div>
         </div>
       </div>
     </div>
 
     <!-- Jo Description -->
 
-    <div id="jo__description">
-      <div class="lee__img">
-        <img src="./storyImg/jo1.jpg" alt="" />
-        <div class="lee__subimg">
-          <div class="lee__subimg__first">
-            <img src="./storyImg/jo2.jpg" alt="" />
-          </div>
-          <div class="lee__subimg__second">
-            <img src="./storyImg/jo3.jpg" alt="" />
+    <div class="jo__description">
+      <div class="jo__description__none__container">
+        <div class="lee__img">
+          <img src="./storyImg/jo1.jpg" alt="" />
+          <div class="lee__subimg">
+            <div class="lee__subimg__first">
+              <img src="./storyImg/jo2.jpg" alt="" />
+            </div>
+            <div class="lee__subimg__second">
+              <img src="./storyImg/jo3.jpg" alt="" />
+            </div>
           </div>
         </div>
-      </div>
 
-      <div class="lee__description__name">
-        <p>IT 게임회사원</p>
-        <h1>조강국<span>프로그래머</span></h1>
+        <div class="lee__description__name">
+          <p>IT 게임회사원</p>
+          <h1>조강국<span>프로그래머</span></h1>
 
-        <div class="lee__description__info">
-          <b>시그니처 토퍼</b>는,<br />
-          체력 충전아이템입니다.<br />
-          <br />
-        </div>
+          <div class="lee__description__info">
+            <b>시그니처 토퍼</b>는,<br />
+            체력 충전아이템입니다.<br />
+            <br />
+          </div>
 
-        <div class="lee__description__text">
-          저는 게임회사 프로그래머입니다. <br />
-          <br />
+          <div class="lee__description__text">
+            저는 게임회사 프로그래머입니다. <br />
+            <br />
 
-          회사에 출근해 회의시간 발표자료를 준비하다 보면 오전 업무가 끝<br />
-          나고, 지속적인 컴퓨터 업무로 체력이 떨어지는 오후가 되면 수시로<br />
-          스트레칭을 해줍니다.<br />
-          <br />
-          업무상 야근이 있는 날이 많지만, 오늘 할 일을 내일로 미루지 않는<br />성격이기에
-          불태워 업무를 마무리합니다.<br />
-          <br />
+            회사에 출근해 회의시간 발표자료를 준비하다 보면 오전 업무가 끝<br />
+            나고, 지속적인 컴퓨터 업무로 체력이 떨어지는 오후가 되면 수시로<br />
+            스트레칭을 해줍니다.<br />
+            <br />
+            업무상 야근이 있는 날이 많지만, 오늘 할 일을 내일로 미루지 않는<br />성격이기에
+            불태워 업무를 마무리합니다.<br />
+            <br />
 
-          퇴근 후, 마무리는 양질의 숙면을 위해 시그니처토퍼 위에 베개와 이<br />
+            퇴근 후, 마무리는 양질의 숙면을 위해 시그니처토퍼 위에 베개와 이<br />
 
-          불을 놓고 좋아하는 음악을 듣다 보면, 편안하게 잠이 듭니다.<br />
-          <br />
-          시그니처토퍼는, 오래 앉아있어 무리가 간 척추와 근육들을 감싸듯<br />
-          이 받쳐줘 이전에 있던 근육통들을 많이 완화해주었습니다. 주변 지<br />
-          <br />
-          인들에게 직장인 필수아이템으로 소개하고 있습니다. <br />
-          <br />
-          <h2>‘야근을 이겨내는 강철 체력을 위해서’</h2>
+            불을 놓고 좋아하는 음악을 듣다 보면, 편안하게 잠이 듭니다.<br />
+            <br />
+            시그니처토퍼는, 오래 앉아있어 무리가 간 척추와 근육들을 감싸듯<br />
+            이 받쳐줘 이전에 있던 근육통들을 많이 완화해주었습니다. 주변 지<br />
+            <br />
+            인들에게 직장인 필수아이템으로 소개하고 있습니다. <br />
+            <br />
+            <h2>‘야근을 이겨내는 강철 체력을 위해서’</h2>
+          </div>
         </div>
       </div>
     </div>
 
     <!-- Kang Description -->
 
-    <div id="kang__description">
-      <div class="lee__img">
-        <img src="./storyImg/kang1.jpg" alt="" />
-        <div class="lee__subimg">
-          <div class="lee__subimg__first">
-            <img src="./storyImg/kang2.jpg" alt="" />
-          </div>
-          <div class="lee__subimg__second">
-            <img src="./storyImg/kang3.jpg" alt="" />
+    <div class="kang__description">
+      <div class="kang__description__none__container">
+        <div class="lee__img">
+          <img src="./storyImg/kang1.jpg" alt="" />
+          <div class="lee__subimg">
+            <div class="lee__subimg__first">
+              <img src="./storyImg/kang2.jpg" alt="" />
+            </div>
+            <div class="lee__subimg__second">
+              <img src="./storyImg/kang3.jpg" alt="" />
+            </div>
           </div>
         </div>
-      </div>
 
-      <div class="lee__description__name">
-        <p>꽃스튜디오</p>
-        <h1>강민영<span> 플로리스트</span></h1>
+        <div class="lee__description__name">
+          <p>꽃스튜디오</p>
+          <h1>강민영<span> 플로리스트</span></h1>
 
-        <div class="lee__description__info">
-          <b>시그니처 토퍼</b>는,<br />
-          가장 애정 하는 침구입니다.<br />
-          <br />
-        </div>
+          <div class="lee__description__info">
+            <b>시그니처 토퍼</b>는,<br />
+            가장 애정 하는 침구입니다.<br />
+            <br />
+          </div>
 
-        <div class="lee__description__text">
-          저는 플로리스트입니다.<br />
-          <br />
+          <div class="lee__description__text">
+            저는 플로리스트입니다.<br />
+            <br />
 
-          이른 새벽 좋은 꽃을 찾기 위해 꽃시장으로 발길을 서두르는 것이 일<br />
-          상입니다.<br />
-          <br />
-          스튜디오에 도착하면 꽃을 정리하고, 예약받은 상품을 제작해 배송<br />하고,
-          방문 손님을 위한 꽃다발은 만듭니다.<br />
-          <br />
+            이른 새벽 좋은 꽃을 찾기 위해 꽃시장으로 발길을 서두르는 것이 일<br />
+            상입니다.<br />
+            <br />
+            스튜디오에 도착하면 꽃을 정리하고, 예약받은 상품을 제작해 배송<br />하고,
+            방문 손님을 위한 꽃다발은 만듭니다.<br />
+            <br />
 
-          오후에는 플라워 레슨을 운영해 더욱 많은 분이 꽃에 관심 갖고 취미<br />
+            오후에는 플라워 레슨을 운영해 더욱 많은 분이 꽃에 관심 갖고 취미<br />
 
-          로 만들어갈 수 있도록 도와드리고 있습니다. <br />
+            로 만들어갈 수 있도록 도와드리고 있습니다. <br />
 
-          <br />
-          퇴근 전 스튜디오 블로그를 관리하며 예약 주문을 정리하면 바쁜 하<br />
-          루를 마무리합니다.<br />
-          <br />
-          일과 후 쌓인 피로를 푸는 방법이 따로 있지 않아 주로 잠으로 피로 <br />
-          를 푸는데요. 그래서 평소에 침구에 관심이 많아 숙면에 좋은 제품을
-          <br />
-          찾아서 사용합니다. <br />
-          <br />
-          시그니처토퍼는, 어릴 적부터 바닥에서 자는 것이 습관인 제게 푹신
-          <br />
-          하고 배기지 않아 편안하게 쉴 수 있도록 도와줘 가장 애정 하는 침 <br />
-          실 아이템입니다. <br />
-          <br />
-          <h2>‘열정적인 일상에 피로 해소를 위해서’</h2>
+            <br />
+            퇴근 전 스튜디오 블로그를 관리하며 예약 주문을 정리하면 바쁜 하<br />
+            루를 마무리합니다.<br />
+            <br />
+            일과 후 쌓인 피로를 푸는 방법이 따로 있지 않아 주로 잠으로 피로
+            <br />
+            를 푸는데요. 그래서 평소에 침구에 관심이 많아 숙면에 좋은 제품을
+            <br />
+            찾아서 사용합니다. <br />
+            <br />
+            시그니처토퍼는, 어릴 적부터 바닥에서 자는 것이 습관인 제게 푹신
+            <br />
+            하고 배기지 않아 편안하게 쉴 수 있도록 도와줘 가장 애정 하는 침
+            <br />
+            실 아이템입니다. <br />
+            <br />
+            <h2>‘열정적인 일상에 피로 해소를 위해서’</h2>
+          </div>
         </div>
       </div>
     </div>
